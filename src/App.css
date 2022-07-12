@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.All_Component{
+    display: flex;
+}
+
+.AllContent{
+    display: flex;
+}
+
+.navigeite{
+    width: 30vw;
+    height: 100vh;
+
+}
+
+.pages{
+    width: 70vw;
+    height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    flex-direction:column ;
+    width: 30vw;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    height: 10vh ;
+    width: 100%;
+    font-size: 30px;
+    color:#000000;
+}
+
+nav a:hover{
+    background-color: #4e4e4e;
+    color: #fff;
+}
